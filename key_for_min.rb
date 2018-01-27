@@ -11,6 +11,6 @@ def key_for_min_value(name_hash)
       if value[0] < value[1]
         value[1] = value[0] #replaces the 0 index with the larger number
         counter += 1
+      end
     end
-    key
 end
